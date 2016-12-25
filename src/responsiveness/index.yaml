@@ -1,0 +1,102 @@
+template: responsiveness
+section:
+  - heading: The Responsive Web
+    list:
+      - example:
+        - heading: What?
+        - title: changes with window width / height
+        - title: changes based on device or orientation
+        - title: changes based on browser
+        - title: "content is like water: takes the form of its container"
+      - example:
+        - heading: "Things to Consider:"
+        - title: native functionality
+        - title: showing / hiding content
+        - title: hover states unavailable on touch devices
+        - title: load times
+      - example:
+        - heading: How?
+        - title: flexible grid
+        - title: stacking items
+        - title: scaling images
+        - title: cropping images
+        - title: simplified navigation
+        - title: less nav Items
+        - title: collapsed nav / hamburger menu
+        - title: Type size adjustments
+      - example:
+        - heading: Why?
+        - title: SEO / findability
+        - title: engaging
+        - title: bigger audience
+        - title: user can focus on content
+        - title: legibility
+        - title: accessbility
+        - title: changing technology
+        - title: load times (images, scripts, videos, etc)
+      - example:
+        - heading: Why Not?
+        - title: strict design control
+        - title: don't feel the need to accomodate mobile
+        - title: security
+      - example:
+        - heading: Adaptive
+        - title: separate mobile &amp; desktop sites
+        - title: sometimes you can choose
+        - title: remove content instead of hiding helps load times
+
+  - heading: Execution
+    list:
+      - example:
+        - heading: Native Responsiveness
+        - title: Use responsive units such as ems, percentages (%), and viewport height (vh) and viewport width (vw). These units can either respond relative to their parent element or to the browser window as a whole.
+      - example:
+        - heading: Media Queries
+        - title: Use what is called a <a href="https://css-tricks.com/css-media-queries/" target="_blank">media query</a> in your CSS. Media Queries will  test for the window size, <a href="https://css-tricks.com/snippets/css/media-queries-for-standard-devices/" target="_blank">type of device, device size, or orientation</a> and override your previously defined CSS rules accordingly.
+
+  - heading: Examples
+    list:
+      - example:
+        - heading: Fully Responsive
+        - url: http://www.npr.org/
+          title: NPR
+        - url: http://getbootstrap.com/
+          title: Twitter's Bootstrap
+        - url: http://34.ge/en
+          title: 34
+        - url: https://historyoficons.com/
+          title: History of Icons
+        - url: https://y7k.com/
+          title: Y7K
+        - url: http://panache.fr/
+          title: Panache
+      - example:
+        - heading: Heavily Scripted
+        - url: http://www.nodeplus.com.cn/
+          title: Node Plus
+        - url: https://yearinmusic.spotify.com
+          title: Spotify Year in Music
+        - url: http://www.heartkids.co.nz/
+          title: Heart Kids
+        - url: http://hands.wtf/
+          title: Hands WTF
+      - example:
+        - heading: Partially Responsive
+        - url: http://www.debbiemillman.com/designmatters/
+          title: Design Matters
+        - url: http://dearzurich.com/22
+          title: Dear Zurich
+        - url: http://www.sennheiser-reshapingexcellence.com/en#
+          title: Sennheiser Reshaping Excellence
+        - url: http://www.the-element.cz/
+          title: The Element
+      - example:
+        - heading: Not Responsive or Adaptive
+        - url: http://www.amazon.com/
+          title: Amazon
+        - url: http://www.huffingtonpost.com/
+          title: Huffington Post
+        - url: http://www.artic.edu/
+          title: Art Institute of Chicago
+        - url: http://www.thecapitol.pn/
+          title: The Capitol

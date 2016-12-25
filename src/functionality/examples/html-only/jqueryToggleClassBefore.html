@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <title>jQuery Toggle Class</title>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Indie Flower', cursive;
+      }
+      .menu {
+        width: 100vw;
+        background: turquoise;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background: mediumturquoise;
+        border-top: 1px solid blue;
+
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+
+        transition: all .4s ease;
+      }
+      .menu--open ul {
+        height: 100vh;
+        opacity: 1;
+      }
+      li {
+        border-bottom: 1px solid blue;
+        transition: all .2s ease;
+      }
+      li:hover {
+        background: paleturquoise;
+      }
+      li a {
+        display: block;
+        line-height: 18vh;
+        padding: 0 0 0 3em;
+        text-decoration: none;
+      }
+      .line {
+        display: block;
+        height: 3px;
+        width: 25px;
+        margin: 5px 0;
+
+        background: pink;
+      }
+      button {
+        -webkit-appearance: none;
+        appearance: none;
+
+        cursor: pointer;
+
+        font-size: 16px;
+
+        border: 0;
+        height: 10vh;
+        padding: 0 0 0 3em;
+        background: transparent;
+      }
+      button:focus {
+        outline: 0;
+      }
+      button:hover .line {
+        background: red;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="menu">
+      <button>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+      <ul>
+        <li>
+          <a href="#">Item 1</a>
+        </li>
+        <li>
+          <a href="#">
+            Item 2
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Item 3
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Item 4
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Item 5
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+      $('button').on('click', function() {
+        $(this).parent('.menu').toggleClass('menu--open');
+      });
+    </script>
+  </body>
+</html>

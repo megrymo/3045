@@ -1,0 +1,121 @@
+template: syllabus
+list:
+  - title: resources
+    item:
+      - title: resources
+      - url: http://www.w3schools.com/tags/
+        txt: W3 Schools HTML Tag List
+      - url: http://css-tricks.com/almanac/
+        txt: CSS Tricks Almanac
+      - url: http://stackoverflow.com/
+        txt: Stack Overflow
+      - url: https://cadence.cc/
+        txt: Cadence &amp; Slang
+      - url: https://www.codecademy.com/learn/web
+        txt: CodeAcademy
+      - url: http://www.servinglibrary.org/
+        txt: Serving Library // Dexter Sinister
+      - url: http://schema.org/
+        txt: Schema
+      - url: https://www.w3.org/standards/webdesign/accessibility
+        txt: Accessibility
+      - title: tools
+      - url: http://www.sublimetext.com
+        txt: Sublime Text
+      - url: foo
+        txt: CyberDuck
+      - url: foo
+        txt: MAMP
+      - url: foo
+        txt: Hosting
+        submenu:
+          - url: https://www.dreamhost.com
+            txt: Dreamhost
+          - url: https://mediatemple.net/
+            txt: MediaTemple
+          - url: https://www.godaddy.com/
+            txt: GoDaddy
+  - title: schedule
+    item:
+      - title: schedule
+      - txt: 1.29 &rarr; introductions
+        submenu:
+          - txt: <strong>Discuss:</strong> What is good web design?
+          - txt: <strong>Teach:</strong> Download session.
+          - txt: <strong>Work:</strong> Select 5 websites you like and 5 you do not. Be prepared to explain your choices.
+          - txt: <strong>Recap:</strong> Good / Bad Web Design Discussion
+            url: /good-or-bad
+      - txt: 2.05 &rarr; What makes a website?
+        submenu:
+          - txt: <strong>Discuss:</strong> 5 sites you like, 5 sites you do not.
+          - txt: <strong>Teach:</strong> HTML & CSS intro / refresher
+          - txt: <strong>Classwork:</strong> 5 link circuit
+          - txt: <strong>Work:</strong> Complete <a href="https://www.codecademy.com/learn/web">CodeAcademy introductory course</a>
+      - txt: 2.12 &rarr; Responsive Design + Media Queries
+        submenu:
+          - txt: <strong>Discuss:</strong> Responsive design
+          - txt: <strong>Teach:</strong> Media Queries
+          - txt: <strong>Work:</strong> Make your 5 link circuit responsive
+          - txt: <strong>Recap:</strong> Responsive Design Discussion
+            url: /responsiveness
+      - txt: 2.19 &rarr; Narratives on the Web
+        submenu:
+          - txt: <strong>Review:</strong> Responsive pages
+          - txt: <strong>Teach:</strong> Hypertext // narrative web
+          - txt: <strong>Work:</strong> Select an article to adapt to a narrative site. Create a proposal for your narrative site.
+          - txt: <strong>Recap:</strong> Hypertext Discussion
+            url: /hypertext
+      - txt: 2.26 &rarr; Proposals
+        submenu:
+          - txt: <strong>Review:</strong> Narrative Proposals.
+          - txt: <strong>Teach:</strong> Wireframing + Information Architecture.
+          - txt: <strong>Work:</strong> Create wireframes for your narrative site.
+          - txt: <strong>Recap:</strong> Information Architecture Discussion
+            url: /information-architecture
+      - txt: 3.04 &rarr; Wireframes / IA
+        submenu:
+          - txt: <strong>Review:</strong> Narrative Wireframes.
+          - txt: <strong>Workshop:</strong> Narrative sites.
+          - txt: <strong>Homework:</strong> Narrative sites.
+      - txt: '3.11 &rarr; critique week : no class'
+      - txt: '3.18 &rarr; midterms : Critique Narrative Sites'
+        submenu:
+          - txt: <strong>Critique:</strong> Narrative Sites
+          - txt: <strong>Teach:</strong> Proposals + mood boards
+          - txt: <strong>Homework:</strong> Final project proposals + mood boards
+      - txt: '3.25 &rarr; spring break : no class'
+      - txt: 4.01 &rarr; Proposals / Mood Boards
+        submenu:
+          - txt: <strong>Review:</strong> Final project proposals + mood boards
+          - txt: <strong>Workshop:</strong> Final project IA / wireframes
+          - txt: <strong>Homework:</strong> Final project IA / wireframes
+      - txt: 4.08 &rarr; IA
+        submenu:
+          - txt: <strong>Review:</strong> Final project IA / wireframes.
+          - txt: <strong>Discuss:</strong> Conveying interaction through design.
+          - txt: <strong>Homework:</strong> Final project designs.
+          - txt: <strong>Recap:</strong> Portfolio Inspiration
+            url: /portfolio-inspiration
+      - txt: 4.15 &rarr; Designs
+        submenu:
+          - txt: <strong>Review:</strong> Final project style guide
+          - txt: <strong>Workshop:</strong> Basic jQuery, Toggle Classes, Slideshows, Simple Parallax.
+          - txt: <strong>Homework:</strong> Final project responsive designs.
+      - txt: 4.22 &rarr; DESIGN REVISIONS &rarr; DEVELOPMENT
+        submenu:
+          - txt: <strong>Review:</strong> Final project responsive designs.
+          - txt: <strong>Workshop:</strong> Final project development.
+          - txt: <strong>Homework:</strong> Final project development. Bring 5 questions for Someoddpilot.
+      - txt: 4.28 &rarr; STUDIO VISIT + WORK DAY
+        submenu:
+          - txt: <strong>Workshop:</strong> Final project development.
+          - txt: <strong>Visit:</strong> Someoddpilot.
+          - txt: <strong>Homework:</strong> Final project development. Bring 5 questions for Uptake.
+      - txt: 5.06 &rarr; STUDIO VISIT + WORK DAY
+        submenu:
+          - txt: <strong>Workshop:</strong> Final project development.
+          - txt: <strong>Vist:</strong> Uptake.
+          - txt: <strong>Homework:</strong> Final project development.
+      - txt: 5.13 &rarr; final projects
+        submenu:
+          - txt: <strong>Review:</strong> Final projects.

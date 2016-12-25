@@ -1,0 +1,125 @@
+.good
+.bad
+  margin 0
+  padding 0
+
+.good
+  border 4px solid mediumspringgreen
+  border-radius 5px
+
+.bad
+  border 4px solid OrangeRed
+  border-radius 5px
+
+.gdbd
+  text-align center
+
+  &__or
+    font-specs(12, 21, 200)
+    font(sans-bold)
+    text-transform uppercase
+    font-size 10px
+
+  &__nav
+    display block
+    margin 1em auto
+    max-width 600px
+
+    &-thumb
+      display inline-block
+
+      @media (max-width: $mobile)
+        display block
+
+    &-item
+      display inline-block
+      width (100 / 3)%
+
+      @media (max-width: $mobile)
+        width 100%
+
+  ul
+    padding 2em
+
+    text-align left
+    column-count 3
+
+    @media (max-width: $tablet)
+      column-count 2
+
+    @media (max-width: $mobile)
+      column-count 1
+
+  &__btn
+    display inline-block
+    appearance none
+    padding .5em 1em .30em
+    margin 1em
+
+    text-transform uppercase
+    text-align center
+    font(sans-bold)
+    font-specs(18, 22, 200)
+
+    border 4px solid $white
+    border-radius 5px
+
+    cursor pointer
+
+    transition all .2s ease
+
+    &:hover
+      color white
+
+    &--bad
+      color OrangeRed
+      border 4px solid OrangeRed
+
+      &:hover
+      &.gdbd__btn--active
+        background OrangeRed
+
+    &--good
+      color mediumspringgreen
+      border 4px solid mediumspringgreen
+
+      &:hover
+      &.gdbd__btn--active
+        background mediumspringgreen
+
+    &--active
+      color white
+      cursor default
+
+    &:after
+      display block
+      content ''
+      height 2px
+      width 100%
+
+.view-animate-container
+  position relative
+
+[ng-view]
+  display block
+  width 100%
+
+  position absolute
+  top 0
+  left 0
+  right 0
+  bottom 0
+
+  opacity 1
+
+  backface-visibility hidden
+  -webkit-backface-visibility hidden
+  transition all .4s
+
+[ng-view].ng-leave,
+[ng-view].ng-enter-active
+  opacity 1
+
+[ng-view].ng-enter,
+[ng-view].ng-leave-active
+  opacity 0

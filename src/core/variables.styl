@@ -1,0 +1,50 @@
+$desktop ?= 1600px
+$laptop?= 1200px
+$tablet?= 840px
+$mobile ?= 680px
+
+viewport-height()
+
+  @media (max-width: ($third-size-break)px)
+    height 100%
+    width 300%
+
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait)
+    height 1024px
+    width 1821px
+
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape)
+    height 768px
+    width 1357px
+
+  @media all and (device-width: 320px) and (device-height: 480px) and (orientation:portrait)
+    height 480px
+    width 854px
+
+  @media all and (device-width: 320px) and (device-height: 480px) and (orientation:landscape)
+    height 320px
+    width 569px
+
+  @media all and (device-width: 320px) and (device-height: 568px) and (orientation:portrait)
+    height 568px
+    width 1010px
+
+  @media all and (device-width: 320px) and (device-height: 568px) and (orientation:landscape)
+    height 320px
+    width 569px
+
+  @media all and (device-width: 375px) and (device-height: 667px) and (orientation:portrait)
+    height 667px
+    width 1186px
+
+  @media all and (device-width: 375px) and (device-height: 667px) and (orientation:landscape)
+    height 375px
+    width 667px
+
+  @media all and (device-width: 414px) and (device-height: 736px) and (orientation:portrait)
+    height 736px
+    width 1365px
+
+  @media all and (device-width: 414px) and (device-height: 736px) and (orientation:portrait)
+    height 414px
+    width 736px

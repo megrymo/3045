@@ -1,0 +1,64 @@
+<!-- devHead -->
+<div class="container">
+  <div class="intro">
+    <h1>VCD 3045 &rarr; Interface &plus; Structure: Web Design</h1>
+    <h2><strong>Instructor:</strong> Meghan Ryan Morris</h2>
+    <h2><strong>Email:</strong> <a href="mailto:mmorri10@saic.edu">mmorri10@saic.edu</a></h2>
+  </div>
+  <div class="grid">
+    <section class="about">
+      <p>
+        This course is an introduction to world
+        wide web digital design. The class
+        reviews current visual communication
+        practices on the Internet, considering
+        the basic concepts of <a href="https://en.wikipedia.org/wiki/Information_architecture">information
+        architecture</a>, developing core technical
+        and design competencies, and exploring
+        the fundamentals of motion and
+        interaction design.
+      </p>
+      <p>
+        Projects employ a range
+        of communication metaphors, from
+        static, page-based work to responsive,
+        multimedia-influenced approaches.
+        The class encourages a critical
+        examination of Internet culture, and
+        challenges students to expand the
+        creative potential of the medium.
+      </p>
+      <p><a href="syllabus.pdf" target="_blank">Syllabus.PDF</a></p>
+    </section>
+  {{#each list}}<!--
+     --><ul class="{{ title }}">
+      {{#each item}}
+        <li{{#if title}} class="title"{{/if}}>
+          {{#if title}}{{title}}{{/if}}
+          {{#if url}}<a href="{{{ url }}}" target="_blank">{{/if}}
+            {{{ txt }}}
+          {{#if url}}
+            </a>
+          {{/if}}
+          {{#if submenu}}
+            <ul>
+              {{#each submenu}}
+                <li>
+                  {{#if url}}<a href="{{{ url }}}" target="_blank">{{/if}}
+                    {{{ txt }}}
+                  {{#if url}}</a>{{/if}}
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
+          {{#if assignment}}
+            <p class="assignment">
+              <strong>Assignment</strong> {{{ assignment }}}
+            </p>
+          {{/if}}
+        </li>
+      {{/each}}
+    </ul><!--
+   -->{{/each}}
+  </div>
+</div>

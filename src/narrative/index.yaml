@@ -1,0 +1,87 @@
+template: narrative
+section:
+  - heading: The Responsive Web
+    list:
+      - example:
+        - heading: editorial / linear
+        - title: Pitchfork &mdash; Aphex Twin
+          url: http://pitchfork.com/features/cover-story/reader/aphex-twin/
+        - title: Pitchfork &mdash; Streaming
+          url: http://pitchfork.com/features/cover-story/reader/streaming/
+        - title: Pitchfork &mdash; Majical Clouds
+          url: http://pitchfork.com/features/cover-story/reader/majical-cloudz/
+        - title: Wired &mdash; The Silk Road
+          url: http://www.wired.com/2015/04/silk-road-1/
+        - title: Complex &mdash; Danny Brown
+          url: http://www.complex.com/covers/danny-brown-interview-sky-high-2013-cover-story/
+        - title: The History of Icons
+          url: https://historyoficons.com/
+
+      - example:
+        - heading: interactive / linear
+        - title: NY Times &mdash; El Capitan
+          url: http://www.nytimes.com/interactive/2015/01/09/sports/the-dawn-wall-el-capitan.html
+        - title: NY Times &mdash; Matisse Gallery
+          url: http://www.nytimes.com/interactive/2015/02/06/arts/a-walk-through-the-gallery-henri-matisse-the-cut-outs-at-the-museum-of-modern-art-in-new-york.html
+        - title: NY Times &mdash; Nepal Earthquake
+          url: http://www.nytimes.com/interactive/2015/04/25/world/asia/nepal-landmarks-before-after-earthquake.html
+        - title: NY Times &mdash; Snow Fall
+          url: http://www.nytimes.com/projects/2012/snow-fall/#/?part=tunnel-creek
+        - title: Triple Canopy &mdash; Tan Lin
+          url: https://canopycanopycanopy.com/issues/14/contents/the_patio_and_the_index
+        - title: Olia Lialina &mdash; My Boyfriend Came back from the War
+          url: http://myboyfriendcamebackfromth.ewar.ru/
+
+      - example:
+        - heading: highly interactive
+        - title: Washington Post &mdash; Dear Future Disaster Survivor
+          url: https://www.washingtonpost.com/posttv/afterthestorm/index.html#/dear-future-disaster-survivor
+        - title: DesMoines Register &mdash; Harvest of Change
+          url: http://www.desmoinesregister.com/pages/interactives/harvest-of-change/
+        - title: The Guardian &mdash; Digital Deadly Sins
+          url: http://digital-deadly-sins.theguardian.com/
+        - title: The Fallen of WW2
+          url: http://www.fallen.io/ww2/
+
+      - example:
+        - heading: non-linear
+        - title: Wired &mdash; Hypertext
+          url: http://www.wired.com/2013/04/hypertext/
+        - title: Form Art
+          url: http://www.c3.hu/collection/form/index1.html
+        - title: Dan Adlesic
+          url: http://danadlesic.com/
+        - title: Silva Field Guide to Birds of a Parallel Future
+          url: http://silvafieldguide.com/
+
+
+  - heading: Proposals
+    list:
+      - example:
+        - heading: 1. content selection
+        - title: pick an article from <a href="http://www.servinglibrary.org/" target="_blank">Serving Library</a> or select your own
+        - title: if you are selecting your own, please send to <a href="mailto:mmorri10@saic.edu">Meghan</a> by Wednesday evening.
+
+      - example:
+        - heading: 2. approach
+        - title: summarize this article for the class
+        - title: tell us what you liked about this article
+        - title: ex. is it relevant to your interests / practice?
+
+      - example:
+        - heading: 3. research &amp; strategy
+        - title: |
+            propose a strategy, such as: linear, nonlinear, simultaneous, interactive, looping, links out, embed media, etc.
+        - title: why are these relevant to your article?
+
+      - example:
+        - heading: 4. exploration
+        - title: 3 examples of functionality you would like to employ.
+        - title: 3 influences you would like to incorporate.
+        - title: why are these relevant to your article?
+
+  - heading: Domains
+    list:
+      - example:
+        - heading: Please select domain name / explore hosting options.
+        - title: Don't worry about purchasing at home if you are uncomfortable with this process.

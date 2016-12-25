@@ -1,0 +1,49 @@
+<!-- devHead -->
+<div class="container">
+  <div class="intro">
+    <h1>Information Architecture</h1>
+    <section class="responsive">
+      <p>
+        &ldquo;Information architecture is about helping people understand their surroundings and find what they’re looking for, in the real world as well as online.&rdquo;<br/>
+        <br/>
+        <em>&mdash;<a href="http://www.iainstitute.org/" target="_blank">Information Architecture Institute</a></em>
+      </p>
+    </section>
+  </div>
+  {{#each section}}
+  <section class="responsive">
+    <h4>{{{ heading }}}</h4>
+    <div class="grid"><!--
+     -->{{#each list}}<ul class="examples">
+        {{#each example}}
+          <li class="{{#if heading}}heading{{else}}ex{{/if}}">
+            {{#if heading}}{{ heading }}{{/if}}
+            {{#if url}}<a href="{{{ url }}}" target="_blank">{{/if}}
+              {{{ title }}}
+            {{#if url}}</a>{{/if}}
+          </li>
+        {{/each}}</ul><!--
+     -->{{/each}}</div>
+  </section>
+  {{/each}}
+  <section class="responsive">
+    <h4>Examples:</h4>
+    {{#each image}}<!--
+       --><a href="{{{ src }}}" target="_blank"{{#if class}} class="{{class}}"{{/if}}>
+        <img src="{{{ src }}}" />
+      </a><!--
+     -->{{/each}}
+    <h4>PDF Examples:</h4>
+    <ul class="examples">
+      {{#each pdf}}
+        <li><a href="/content/{{{ link }}}" target="_blank">{{{ name }}}</a></li>
+      {{/each}}
+    </ul>
+  </section>
+  <section class="responsive">
+    <h4>Assignment</h4>
+    <p>
+      Create wireframes for your narrative site!
+    </p>
+  </section>
+</div>

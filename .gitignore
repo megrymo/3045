@@ -1,0 +1,14 @@
+node_modules
+
+*.swp
+*.pdf
+src/content/*.pdf
+dist/*
+
+build/*
+
+.DS_Store
+
+plato
+
+*.sublime-workspace

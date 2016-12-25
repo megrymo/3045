@@ -1,0 +1,124 @@
+template: information-architecture
+image:
+  - src: https://public-media.interaction-design.org/images/ux-daily/5466e6c1c45d1841cd7fa7a134fd4570a398334e845d6.png
+    class: full
+  - src: https://d13yacurqjgara.cloudfront.net/users/16215/screenshots/1354118/attachments/192697/wireframe-hotels.png
+  - src: http://webdesignledger.com/wp-content/uploads/2013/06/wireframe08.jpg
+    class: sixty
+  - src: http://www.ecsteam.com/wp-content/uploads/website-wireframe.jpg
+    class: forty
+  - src: http://www.adventurehousenyc.com/sites/default/files/images/wireframes.png
+    class: full
+  - src: http://21petals.com/wp-content/uploads/2010/09/wireframe.jpg
+    class: full
+  - src: https://d13yacurqjgara.cloudfront.net/users/62691/screenshots/1017934/wireframes.gif
+    class: full
+
+pdf:
+  - link: RideIllinois_IA_3.0.pdf
+    name: Ride Illinois
+  - link: land&sea_ia.3.pdf
+    name: Land &amp; Sea Dept.
+  - link: Cat_SS16-Campaign-Page.pdf
+    name: CAT SS16 Campaign
+
+section:
+  - heading: Tools
+    list:
+      - example:
+        - heading: Organization Schemes and Structures
+        - title: Categorize and structure information
+      - example:
+        - heading: "Labeling Systems"
+        - title: Represent information
+      - example:
+        - heading: Navigation Systems
+        - title: Browse or move through information
+      - example:
+        - heading: Search Systems
+        - title: Look for information
+
+  - heading: Components
+    list:
+      - example:
+        - heading: Content
+        - title: What information is to be organized?
+        - title: "&emsp;&bull;&emsp;Ex: data, media (images, video, audio), text"
+        - title: What information needs to be managed?
+        - title: "&emsp;&bull;&emsp;user profiles, social assets, products"
+      - example:
+        - heading: Context
+        - title: "What goals are you trying to achieve?"
+        - title: "&emsp;&bull;&emsp;Ex: financial, political, or cultural."
+        - title: "What contraints are you operating within?"
+        - title: "&emsp;&bull;&emsp;Ex: financial, personnel, content"
+      - example:
+        - heading: Users
+        - title: Who goes there?
+        - title: How do they get there?
+        - title: Why are they there?
+      - example:
+          - heading: Tasks
+          - title: Experience
+          - title: Needs / Purpose
+          - title: Information Seeking
+
+  - heading: Organization Schemes
+    list:
+      - example:
+        - heading: Topic schemes
+        - title: organize content based on the specific subject matter.
+      - example:
+        - heading: Task schemes
+        - title: organize content by considering the needs, actions, questions, or processes that users bring to that specific content.
+      - example:
+        - heading: Audience schemes
+        - title: organize content for separate segments of users.  Audience schemes can be closed or open, meaning that users are able to navigate from one audience to another.  This type of scheme does present challenges unless the content lends itself to users very easily self-identifying to which audience they belong and perhaps not fitting multiple audience profiles.
+      - example:
+        - heading: Metaphor schemes
+        - title: help users by relating content to familiar concepts.  This is used in interface design (folders, trash, etc) but can pose challenges when used as the site’s primary organization scheme.
+
+  - heading: Organization Structures
+    list:
+      - example:
+        - heading: Hierarchical Structures
+        - title: '<img src="http://www.bbc.co.uk/staticarchive/2329822216d7bd31c7617c11b6603767cf1e5edf.gif"  class="no-hover" />'
+        - title: In Hierarchical Structures, sometimes referred to as tree structures or hub-and-spoke structures, there is a top down approach or parent/child relationships between pieces of information.  Users start with broader categories of information (parent) and then drill further down into the structure to find narrower, more detailed information (child).
+        - title: Many users are familiar with structuring information in hierarchies because they see these structures on a daily basis in the way businesses have a formed their lead leadership structure, the way project plans are set-up, and so on.
+      - example:
+        - heading: Sequential Structures
+        - title: '<img src="http://itwebtutorials.net/XHTML/XHTML12/Linear.gif" class="no-hover"/>'
+        - title: Websites with Sequential Structures require users to go step-by-step, following a specific path through content.
+        - title: An example of this type of structure is when a user is attempting to purchase something or are taking a course online. Sequential structures assume that there is some optimal ordering of content that is associated with greater effectiveness or success.
+      - example:
+        - heading: Matrix Structures
+        - title: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Main_Page_Usability.png/500px-Main_Page_Usability.png" class="no-hover"/>'
+        - title: A Matrix Structure allows users to determine their own path since content is linked in numerous ways. This type of structure takes full advantage of the principles behind hypertext, or HTML.  For example, one user could choose to navigate through a set of content based on date while another navigates based on topic.
+      - example:
+        - heading: Considerations
+        - title: Allow room for growth.
+        - title: Avoid structures that are too shallow or too deep.
+        - title: "For some information architects, <strong>wireframes</strong> are the best way to represent the connections between different screens and identify how the site will work from a practical perspective. Based on the information gathered during research and the decisions made during hierarchy creation, an IA will sketch out certain key screens in order to demonstrate how a user will interact with the information available."
+
+  - heading: Wireframes
+    list:
+      - example:
+        - title: |
+            A &ldquo;wire frame&rdquo; is a non-graphical layout of the proposed web page. The website wireframe connects the underlying conceptual structure, or information architecture, to the surface, or visual design of the website. Wireframes help establish functionality, and the relationships between different screen templates of a website. An iterative process, creating wireframes is an effective way to make rapid prototypes of pages, while measuring the practicality of a design concept. Wireframing typically begins between “high-level structural work—like flowcharts or site maps—and screen designs.” Within the process of building a website, wireframing is where thinking becomes tangible.
+      - example:
+        - title: <a href="https://d13yacurqjgara.cloudfront.net/users/62691/screenshots/978949/wireframe-template.gif"><img src="https://d13yacurqjgara.cloudfront.net/users/62691/screenshots/978949/wireframe-template.gif" /></a>
+      - example:
+        - heading: "Wireframes should convey:"
+        - title: Range of functions available
+        - title: Priorities of the information and functions
+        - title: Rules for displaying certain kinds of information
+        - title: Effects of different scenarios on the display
+        - title: A high-level overview of the site
+      - example:
+        - heading: "Wireframes should not convey:"
+        - title: Specific or granular design choices and details.
+        - title: "&emsp;&bull;&emsp; Ex. typefaces, treatments, or color choices."
+        - title: Actual assets or media
+        - title: "&emsp;&bull;&emsp; Ex. High resolution images or screencaps, typeset copy, or non-generic asset references."
+
+

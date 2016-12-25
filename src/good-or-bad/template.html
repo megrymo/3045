@@ -1,0 +1,37 @@
+<!-- devHead -->
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular-resource.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-animate.js"></script>
+<div ng-app="qualityApp">
+  <div class="container gdbd">
+    <nav class="gdbd__nav"
+      ng-controller="navCtrl as nav"><!--
+       --><div class="gdbd__nav-item">
+        <span class="gdbd__nav-thumb">&#128077;</span>
+        <a href="#/good"
+          class="gdbd__btn gdbd__btn--good"
+          ng-class="{'gdbd__btn--active': nav.route.current.data == 'good' }">
+          Good
+        </a>
+      </div><!--
+       --><div class="gdbd__nav-item">
+        <span class="gdbd__or">or</span>
+      </div><!--
+       --><div class="gdbd__nav-item">
+        <a href="#/bad"
+          class="gdbd__btn gdbd__btn--bad"
+          ng-class="{'gdbd__btn--active': nav.route.current.data == 'bad' }">
+          Bad
+        </a>
+        <span class="gdbd__nav-thumb">&#128078;</span>
+      </div><!--
+     --></nav>
+    <div class="view-animate-container">
+      <div class="view-animate">
+        <div ng-view class="primary-view"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/good-or-bad/main.js" inject></script>

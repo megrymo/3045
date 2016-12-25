@@ -1,0 +1,50 @@
+template: good-or-bad/partials/
+type: bad
+item:
+  - title: excess
+  - title: 80 - 20
+  - title: too much content at once
+  - title: broken links
+  - title: site maps
+  - title: poorly executed map functions
+  - title: doesn't work
+  - title: lack of clear demarkation
+  - title: difficult to navigate
+  - title: difficult to click links
+  - title: sylistically outdated
+  - title: content outdated
+  - title: slow
+  - title: advertisements
+  - title: excessive video
+  - title: typos
+  - title: grammatical mistakes
+  - title: flattened text
+  - title: no retina
+  - title: hidden text
+  - title: missing sources and / or dates
+  - title: inattention to translation
+  - title: inattention to accessibility
+  - title: too much content above the fold
+  - title: "trying too hard, crazy"
+  - title: not responsive
+  - title: inappropriately adaptive instead of responsive
+  - title: scrolljacking
+  - title: incompatible across browsers
+  - title: messy or busy nav
+  - title: "tiny imgs, pixelation"
+  - title: imposing on user
+  - title: doesn't respect privacy
+  - title: social media requirements
+  - title: low reward
+  - title: socially isolated or abandoned
+  - title: unoptimized imagery
+  - title: incompatible fonts
+  - title: clickbait
+  - title: misrepresenting content or intention
+  - title: gimmicky
+  - title: no images
+  - title: lack of clarity or voice
+  - title: weak branding
+  - title: difficult domain names
+  - title: "lack of purpose, content"
+  - title: lack of transparency

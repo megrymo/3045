@@ -1,0 +1,264 @@
+$dwcnt-img-responsive
+  display block
+
+  height    auto
+  max-width 100%
+  width     auto
+
+$dwcnt-center-block
+  display block
+  margin 0 auto
+
+$dwcnt-full-width
+  width 300%
+  margin-left -100%
+
+$dwcnt-full-width-inner
+  // fallback for browsers that don't support viewport widths
+  width 980px
+  width 100vw
+  min-width 980px
+  position relative
+  margin 0 auto
+
+$dwcnt-full-link
+  position absolute
+  z-index  2
+
+  left 0
+  top  0
+
+  width  100%
+  height 100%
+
+  cursor pointer
+
+$dwcnt-half-link
+  position absolute
+  z-index  2
+  left 0
+  top  0
+
+  width  50%
+  height 100%
+
+$dwcnt-cta-front
+  position relative
+  z-index 5
+  backface-visibility
+
+@font-face {
+  font-family: 'fontello';
+  src: url('/fonts/demandware-fontello.eot?64921845');
+  src: url('/fonts/demandware-fontello.eot?64921845#iefix') format('embedded-opentype'),
+       url('/fonts/demandware-fontello.woff?64921845') format('woff'),
+       url('/fonts/demandware-fontello.ttf?64921845') format('truetype'),
+       url('/fonts/demandware-fontello.svg?64921845#demandware-fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.intro
+  width 100%
+  padding 1em 0 0
+
+  p
+    display block
+    margin 0
+
+    font(sans)
+    font-specs(16, 25, 25)
+    font-size 16px
+
+.sr
+  sop-sr-only()
+
+.full-link
+  @extend $dwcnt-full-link
+
+body
+  margin 0
+  padding 0
+
+  font(sans)
+
+  background $pearl
+
+.container
+  max-width 920px
+  margin 0 auto
+  display block
+
+  @media (max-width: $laptop)
+    max-width 840px
+
+  @media (max-width: $tablet)
+    max-width 640px
+
+  @media (max-width: $mobile)
+    max-width 80%
+
+ul
+  padding 0
+  margin 0
+  list-style-type none
+
+.about
+  p
+    margin 1em 0
+    font-specs(16, 25, 25)
+    font-size 16px
+
+.grid
+  position relative
+  margin 0 -2.5%
+
+.schedule
+  position absolute
+  top 0
+
+  @media (max-width: $tablet)
+    position relative
+
+.schedule,
+.resources,
+.tools,
+.about,
+.examples
+  vertical-align top
+  display inline-block
+  width 45%
+  padding 1em 2.5%
+
+  @media (max-width: $tablet)
+    display block
+    width 100%
+
+li
+  padding .5em 0 2em
+
+  font-specs(12, 21, 200)
+  font(sans-bold)
+  text-transform uppercase
+  font-size 10px
+
+  ul
+    padding .5em 0 0 2em
+
+  .resources &,
+  li
+  &.ex
+    padding .25em 0
+    font-specs(16, 21, 25)
+    font-size 16px
+    font(sans)
+    text-transform none
+
+li.title
+  padding 1.5em 0 0.5em
+
+  font-specs(12, 21, 200)
+  font(sans-bold)
+  text-transform uppercase
+  font-size 10px
+
+.assignment
+  padding 0.5em 0 0 1em
+  margin 0
+
+  font-specs(12, auto, 25)
+
+  strong
+    display block
+
+a
+  color $blue
+
+  text-decoration none
+
+  transition all .2s ease
+
+  &:hover
+    color $pink
+
+h1
+h4
+  font-specs(12, 21, 200)
+  text-transform uppercase
+  font-size 12px
+
+h2
+h3
+  font-specs(16, 21, 25)
+  font-size 16px
+  font(sans)
+
+.responsive
+  padding 2em 0
+  border-top 2px solid $blue
+
+  h4
+    margin 0
+
+  p
+    margin 0 0 1em
+
+    font-specs(14, 21, 25)
+
+    column-count 2
+    column-gap 2em
+
+    @media (max-width: $tablet)
+      column-count 1
+      column-gap 0
+
+img
+  display block
+  max-width 100%
+  height auto
+
+  padding 1em 0 2em
+
+  backface-visibility hidden
+
+  transition all .2s ease
+
+  &.no-hover:hover
+    -webkit-filter brightness(1)
+    filter brightness(1)
+
+  .introduction &
+    width 100%
+
+  &:hover
+    -webkit-filter brightness(.8)
+    filter brightness(.8)
+
+.half
+.forty
+.sixty
+.full
+  display inline-block
+  vertical-align top
+  padding 1%
+
+  img
+    display block
+    margin 0 auto
+    width 100%
+    height auto
+
+.full
+  width 98%
+
+.half
+  width 48%
+
+.forty
+  width 38%
+
+.sixty
+  width 58%
+
+.sixty
+  .examples
+    width 100%

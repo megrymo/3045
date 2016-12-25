@@ -1,0 +1,164 @@
++prefix-classes(sorg-lnd)
+  .__modal-play
+    display block
+    margin 0 auto
+
+    cursor pointer
+
+  .__overlay
+    position fixed
+    z-index 2000
+
+    left   0
+    top    0
+
+    width  100%
+    height 0
+
+    opacity 0
+
+    transition opacity .3s
+
+    .__modal--active &
+      height 100%
+      opacity 1
+      background alpha($black, 80%)
+      cursor pointer
+
+  .__modal
+    display none
+    position fixed
+    z-index 2001
+
+    width  100%
+    height 100%
+
+    top  0
+    left 0
+
+    opacity 0
+
+    transition all .5s
+
+    .__modal--active &
+      display block
+      opacity 1
+
+  .__modal-video
+    position absolute
+    z-index  1000
+
+    width  75%
+    height auto
+
+    top  50%
+    left 50%
+
+    background alpha($black, 70%)
+
+    transform translate(-50%, -50%)
+
+    font-size 1em
+
+    @media screen and (max-aspect-ratio 10 / 9), screen and (min-aspect-ratio 16 / 7)
+      font-size 0.7em
+
+    @media screen and (min-aspect-ratio 16 / 9)
+      height 75%
+      width  75%
+
+  .__video-x
+    z-index 2000
+    position absolute
+
+    right -((30 + 55 + 20) / 55)em
+    top -((30 + 55 + 20) / 55)em
+
+    font-family "sorg-fontello"
+    font-specs(55)
+
+    padding 10px
+
+    height ((55 + 20) / 55)em
+    width ((55 + 20) / 55)em
+
+    color $white
+    background none
+
+    opacity 1
+    backface-visibility(hidden)
+    transition all .2s
+
+    overflow visible
+
+    text-shadow 0 0 10px alpha($black, 20%)
+
+    cursor: pointer
+
+    &:hover
+      background transparent
+      color $white
+      text-shadow 0 0 22px alpha($white, 50%)
+
+    &:focus
+      outline 0
+      color $white
+      text-shadow 0 0 22px alpha($white, 50%)
+
+    &:before
+      content "\e802"
+      transition all .2s
+
+  .__video-modal,
+  .__modal-embed
+    display none
+    position fixed
+    z-index 2001
+
+    width  100%
+    height 100%
+
+    top  0
+    left 0
+
+    opacity 0
+
+    transition all .5s
+
+    .__modal--active &
+      display block
+      opacity 1
+
+  .__embed-responsive
+    display block
+    position relative
+
+    height 0
+
+    overflow hidden
+
+    & .__embed-responsive-item,
+    & .__modal-embed
+      position absolute
+
+      top    0
+      left   0
+      bottom 0
+
+      width  100%
+      height 100%
+
+      border 0
+
+    .__modal--active &
+      height 100%
+
+  @media screen and (max-aspect-ratio 16 / 9)
+    .__embed-responsive.__embed-responsive--16by9
+      padding-bottom (9 / 16 * 100)%
+      z-index 5
+
+.sever
+  .sorg-lnd__video-x:hover
+    -webkit-text-shadow 0 0 5px alpha($black, 65%) !important
+    text-shadow 0 0 5px alpha($black, 65%) !important

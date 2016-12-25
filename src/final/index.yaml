@@ -1,0 +1,58 @@
+template: final
+section:
+  - heading: Proposals Due 04/01/2016
+    list:
+      - example:
+        - heading: Choose a Project
+        - title: |
+            <strong>A Portfolio Site.</strong>
+        - title: |
+            &emsp;&bull;&emsp;This can either be for yourself or someone else.
+        - title: |
+            &emsp;&bull;&emsp;Three levels of hierarchy (homepage, project listing page, project detail page) are required.
+        - title: |
+            <strong>An Interactive Narrative.</strong>
+        - title: |
+            &emsp;&bull;&emsp;This should be a deeper exploration than your midterm project.
+        - title: |
+            <strong>A Different Endeavor.</strong>
+        - title: |
+            &emsp;&bull;&emsp;Your idea must be approved by 3/30/2016.
+      - example:
+        - heading: Write a Proposal
+        - title: |
+            Include your approach.
+        - title: |
+            &emsp;&bull;&emsp;Detail how you want to execute this project.
+        - title: |
+            &emsp;&bull;&emsp;Why you want to execute this particular project?
+        - title: |
+            Include research and strategy.
+        - title: |
+            &emsp;&bull;&emsp;How do others solve similar problems?
+        - title: |
+            &emsp;&bull;&emsp;What types of information will you work with?
+        - title: |
+            &emsp;&bull;&emsp;How will you organize this information?
+      - example:
+        - heading: Create 2 sets of Mood Boards.
+        - title: |
+            A mood board of interaction concepts.
+        - title: |
+            &emsp;&bull;&emsp;This mood board must include links.
+        - title: |
+            A mood board of visual concepts.
+        - title: |
+            &emsp;&bull;&emsp;This mood board may be only images or may contain text and images.
+      - example:
+        - heading: Examples
+        - title: Tovala
+          url: Tovala_Moodboard_Final.pdf
+        - title: Saucony Originals
+          url: saucony_mood_dh.pdf
+        - title: Chaco T-Shirts
+          url: Chaco_TShirt_Moodboards.pdf
+        - title: Nutrient Concepts
+          url: Nutrient_Concepts.pdf
+        - title: Nutrient Industry
+          url: Nutrient_Industry.pdf

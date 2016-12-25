@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <title>jQuery Toggle Class</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+      }
+      .menu {
+        padding: 1em 0 0;
+        width: 100vw;
+        background: mediumturquoise;
+      }
+      .line {
+        display: block;
+        width: 100%;
+        height: 3px;
+        margin: 5px 0;
+        background: bisque;
+        transition: all .2s ease;
+      }
+      button {
+        margin-left: 1em;
+        width: 80px;
+        padding: .25em 1em;
+        -webkit-appearance: none;
+        appearance: none;
+
+        border: 0;
+        background: transparent;
+        border-radius: 5px;
+        color: white;
+
+        font-size: 1.5em;
+        letter-spacing: .15em;
+        text-transform: uppercase;
+
+        cursor: pointer;
+      }
+      button:hover .line {
+        background: deeppink;
+      }
+      li {
+        width: 100%;
+        padding: 1em 0 1em 3em;
+        border-bottom: 2px solid paleturquoise;
+        transition: all .2s ease;
+        background: darkturquoise;
+        cursor: pointer;
+      }
+      li:hover {
+        background: turquoise;
+      }
+      a {
+        color: paleturquoise;
+        letter-spacing: .05em;
+        text-decoration: none;
+        transition: all .2s ease;
+      }
+      li:hover a {
+        color: white;
+      }
+      .menu ul {
+        border-top: 2px solid paleturquoise;
+        padding: 0;
+        overflow: hidden;
+        list-style-type: none;
+        transition: all .2s ease;
+        height: 260px;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <button>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+      <ul>
+        <li>
+          <a href="#">Item 1</a>
+        </li>
+        <li>
+          <a href="#">
+            Item 2
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Item 3
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Item 4
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Item 5
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+      $('button').on('click', function() {
+        $(this).parent('.menu').toggleClass('menu--open');
+      });
+    </script>
+  </body>
+</html>

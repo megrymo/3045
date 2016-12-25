@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>JQuery Parallax</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      .puppy,
+      .puppy-puppy {
+        display: block;
+        float: left;
+        width: 75%;
+        height: auto;
+        margin: 20em auto;
+        -webkit-box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+      }
+      .puppy-puppy {
+        float: right;
+      }
+      header {
+        width: 100vw;
+
+        background: green;
+        color: white;
+
+        text-align: center;
+        font-size: 4vw;
+        line-height: 100vh;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>I love hound dogs</header>
+    <img src="http://i.imgur.com/Raoe6Vo.gif" class="puppy fader" />
+    <img src="http://i.imgur.com/Raoe6Vo.gif" class="puppy-puppy fader" />
+    <img src="http://i.imgur.com/Raoe6Vo.gif" class="puppy fader" />
+    <img src="http://i.imgur.com/Raoe6Vo.gif" class="puppy-puppy fader" />
+    <img src="http://i.imgur.com/Raoe6Vo.gif" class="puppy fader" />
+  </body>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script>
+    // move up on scroll
+    $(window).scroll(function () {
+      var x = $(this).scrollTop();
+      $(".puppy").css("margin-top", parseInt(-x / 5) + "px");
+    });
+    $(window).scroll(function () {
+      var x = $(this).scrollTop();
+      $(".puppy-puppy").css("margin-top", parseInt(-x / 2) + "px");
+    });
+
+    // fade out on scroll
+    var header = $('header');
+    var range = 200;
+
+    $(window).on('scroll', function () {
+
+        var scrollTop = $(this).scrollTop();
+        var offset = header.offset().top;
+        var height = header.outerHeight();
+        offset = offset + height / 2;
+        var calc = 1 - (scrollTop - offset + range) / range;
+
+        header.css({ 'opacity': calc });
+
+        if ( calc > '1' ) {
+          header.css({ 'opacity': 1 });
+        } else if ( calc < '0' ) {
+          header.css({ 'opacity': 0 });
+        }
+    });
+
+  </script>
+</html>

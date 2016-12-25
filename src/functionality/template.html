@@ -1,0 +1,22 @@
+<!-- devHead -->
+<div class="container">
+  <div class="intro">
+    <h1>Functionality</h1>
+  </div>
+  {{#each section}}
+  <section class="responsive">
+    <h4>{{{ heading }}}</h4>
+    <div class="grid"><!--
+     -->{{#each list}}<ul class="examples">
+        {{#each example}}
+          <li class="{{#if heading}}heading{{else}}ex{{/if}}">
+            {{#if heading}}{{ heading }}{{/if}}
+            {{#if url}}<a href="{{{ url }}}" target="_blank">{{/if}}
+              {{{ title }}}
+            {{#if url}}</a>{{/if}}
+          </li>
+        {{/each}}</ul><!--
+     -->{{/each}}</div>
+    </section>
+  {{/each}}
+</div>

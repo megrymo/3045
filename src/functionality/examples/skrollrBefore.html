@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <title>Skrollr</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .item-right {
+        float: right;
+      }
+      .item {
+        position: relative;
+        display: block;
+        width: 75vw;
+        padding: 5em 0 10em;
+        height: auto;
+        transition: all .4s;
+      }
+      .item--full {
+        position: relative;
+        overflow: hidden;
+
+        width: 100%;
+        padding: 0 0 65px;
+        display: block;
+
+        transform: scale3d(1.25, 1.25, 1.25);
+        transition: all .4s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="skrollr-body">
+      <img src="http://i.imgur.com/Raoe6Vo.gif" class="item"
+        data-200-top=";"
+        data-100-top=""/>
+      <img src="http://i.imgur.com/Raoe6Vo.gif" class="item item-right"
+        data-200-top=";"
+        data-100-top="" />
+      <img src="http://i.imgur.com/Raoe6Vo.gif" class="item--full"
+        data-200-top=";"
+        data-100-top=""/>
+      <img src="http://i.imgur.com/Raoe6Vo.gif" class="item"
+        data-200-top=";"
+        data-100-top="" />
+      <img src="http://i.imgur.com/Raoe6Vo.gif" class="item item-right"
+        data-200-top=";"
+        data-100-top=""/>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.29/skrollr.min.js"></script>
+    <script>
+      $.fn.appendAttr = function(attrName, suffix) {
+          this.attr(attrName, function(i, val) {
+              return val + suffix;
+          });
+          return this;
+      };
+
+      $('[slight-parallax]').each(function() {
+        $(this).appendAttr({
+          'data-bottom-top': ' transform: translateY(-25%)',
+          'data-top-bottom': ' transform: translateY(25%)'
+        });
+      });
+
+      $(document).ready(function () {
+        var s = skrollr.init({
+          forceHeight: false
+        });
+      });
+    </script>
+  </body>
+</html>

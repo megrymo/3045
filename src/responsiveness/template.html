@@ -1,0 +1,42 @@
+<!-- devHead -->
+<div class="container">
+  <div class="intro">
+    <h1>Responsive Design</h1>
+    <a href="http://www.stephaniewalter.fr/portfolio/content-is-like-water-illustration/" target="_blank">
+      <img src="http://www.stephaniewalter.fr/wp-content/uploads/content-is-like-water-12402.jpg" alt="Content is Like Water" />
+    </a>
+    <section class="responsive">
+      <p>
+        &ldquo;The English architect Christopher Wren once quipped that his chosen field &lsquo;aims for Eternity,&rsquo; and there's something appealing about that formula: Unlike the web, which often feels like aiming for next week, architecture is a discipline very much defined by its permanence.
+        <br/>
+        <br/>
+        A building's foundation defines its footprint, which defines its frame, which shapes the facade. Each phase of the architectural process is more immutable, more unchanging than the last. Creative decisions quite literally shape a physical space, defining the way in which people move through its confines for decades or even centuries. Working on the web, however, is a wholly different matter. Our work is defined by its transience, often refined or replaced within a year or two&hellip;
+        <br/>
+        <br/>
+        Recently, an emergent discipline called &lsquo;responsive architecture&rsquo; has begun asking how physical spaces can respond to the presence of people passing through them. Through a combination of embedded robotics and tensile materials, architects are experimenting with art installations and wall structures that bend, flex, and expand as crowds approach them. Motion sensors can be paired with climate control systems to adjust a room's temperature and ambient lighting as it fills with people. Companies have already produced &lsquo;smart glass technology&rsquo; that can automatically become opaque when a room's occupants reach a certain density threshold, giving them an additional layer of privacy.
+        <br/>
+        <br/>
+        In their book Interactive Architecture, Michael Fox and Miles Kemp described this more adaptive approach as &lsquo;a multiple-loop system in which one enters into a conversation; a continual and constructive information exchange.&rsquo; Emphasis mine, as I think that's a subtle yet powerful distinction: rather than creating immutable, unchanging spaces that define a particular experience, they suggest inhabitant and structure can&mdash;and should&mdash;mutually influence each other.&rdquo;
+        <br/>
+        <br/>
+        <em>&mdash;Ethan Marcotte,</em> <a href="http://alistapart.com/article/responsive-web-design">A List Apart: Responsive Design.</a>
+      </p>
+    </section>
+  </div>
+  {{#each section}}
+  <section class="responsive">
+    <h4>{{{ heading }}}</h4>
+    <div class="grid"><!--
+     -->{{#each list}}<ul class="examples">
+        {{#each example}}
+          <li class="{{#if heading}}heading{{else}}ex{{/if}}">
+            {{#if heading}}{{ heading }}{{/if}}
+            {{#if url}}<a href="{{{ url }}}" target="_blank">{{/if}}
+              {{{ title }}}
+            {{#if url}}</a>{{/if}}
+          </li>
+        {{/each}}</ul><!--
+     -->{{/each}}</div>
+    </section>
+  {{/each}}
+</div>

@@ -1,0 +1,67 @@
+template: good-or-bad/partials/
+type: good
+item:
+  - title: uses native functionality
+  - title: thumbnails
+  - title: pull-down menus
+  - title: interesting domain names
+  - title: good nav
+  - title: "responsive: works on mobile, tablet, etc."
+  - title: "good interactions: attention to widths, states, CTAs, etc"
+  - title: quick load time
+  - title: cohesive design and content
+  - title: cohesive branding
+  - title: effective homepage
+  - title: legibility
+  - title: "type considerations such as color, x-height, size, face, webfonts, line-length, et al"
+  - title: use of grids
+  - title: "findability, SEO"
+  - title: gentle
+  - title: best practices
+  - title: everything works!
+  - title: flat design
+  - title: ease to navigate
+  - title: 20 - 80
+  - title: CSS animations
+  - title: minimal clicks
+  - title: user expectations rewarded
+  - title: self-contained experiences
+  - title: huge design
+  - title: page titles
+  - title: iconography
+  - title: works on all browsers
+  - title: minimal ads / pop-ups
+  - title: "considered error pages, 404 pages"
+  - title: simplifying tasks
+  - title: progress bars
+  - title: loaders and load states
+  - title: key words
+  - title: footer
+  - title: reinforcement
+  - title: considering user
+  - title: accepting user feedback
+  - title: purpose!
+  - title: good execution
+  - title: good and purposeful content!
+  - title: parallax storytelling
+  - title: microsites
+  - title: medium flexible
+  - title: SVG's
+  - title: breadcrumbs
+  - title: community
+  - title: related items
+  - title: aware of digital sphere
+  - title: aware of audience
+  - title: medium specificity
+  - title: modal
+  - title: slideshows / carousels
+  - title: updated
+  - title: incentives
+  - title: external links
+  - title: strong visuals
+  - title: editing!
+  - title: varying content for mobile
+  - title: cool &amp; relevant!
+  - title: aware of competitors &amp; peers
+  - title: intuitive
+  - title: clear hierarchy

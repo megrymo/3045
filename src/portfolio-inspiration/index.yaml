@@ -1,0 +1,194 @@
+template: portfolio-inspiration
+section:
+  - heading: Your desktop designs, which should convey<br />all interactions / states, are due 04/15/2016.<br /> Please let these sites help inspire you!
+    list:
+      - example:
+        - heading: Portolios
+        - title: |
+            Andrew Herzog
+          url: http://www.andrewherzog.com/
+        - title: |
+            &emsp;&bull;&emsp;Ingenuity &amp; personality.
+        - title: |
+            &emsp;&bull;&emsp;Does not make viewer work.
+        - title: |
+            Samuel Rivers Moore
+          url: http://www.samuelriversmoore.net/
+        - title: |
+            &emsp;&bull;&emsp;Medium specific.
+        - title: |
+            &emsp;&bull;&emsp;Strong statement.
+        - title: |
+            Tiago Pereira
+          url: http://ttiiaaggoo.com/
+        - title: |
+            &emsp;&bull;&emsp;Nice hover &amp; focus states.
+        - title: |
+            &emsp;&bull;&emsp;Simple, effective scroll animation.
+        - title: |
+            &emsp;&bull;&emsp;Detail pages show fold on various devices.
+        - title: |
+            &emsp;&bull;&emsp;Fixed navigation in 4 corners.
+        - title: |
+            Jonas Ersland
+          url: http://www.jonasersland.net/
+        - title: |
+            &emsp;&bull;&emsp;Narrative, blog-like.
+        - title: |
+            &emsp;&bull;&emsp;Informational, not oblique.
+        - title: |
+            &emsp;&bull;&emsp;Slideshows on each entry in place of detail pages.
+        - title: |
+            Manuel Sofia
+          url: http://manuelsofia.me/
+        - title: |
+            &emsp;&bull;&emsp;Showy splash page with simple interior pages.
+        - title: |
+            &emsp;&bull;&emsp;Clearly states involvement with each project.
+        - title: |
+            &emsp;&bull;&emsp;Shows animation on screens.
+        - title: |
+            Thu Tran
+          url: http://www.thutran.com/
+        - title: |
+            &emsp;&bull;&emsp;Shows work, narrative.
+        - title: |
+            &emsp;&bull;&emsp;Stylized, unique, fun.
+        - title: |
+            &emsp;&bull;&emsp;Unconventional portfolio site.
+        - title: |
+            Ian Williams
+          url: http://ianwillia.ms/
+        - title: |
+            &emsp;&bull;&emsp;Personal touches everywhere.
+        - title: |
+            &emsp;&bull;&emsp;Lots of motion, eye candy.
+        - title: |
+            &emsp;&bull;&emsp;Displays screens IRL as well as mock-ups.
+        - title: |
+            Natassa Antonopoulou
+          url: http://www.nat-ant.de/
+        - title: |
+            &emsp;&bull;&emsp;Good use of icons.
+        - title: |
+            &emsp;&bull;&emsp;Mobile first design.
+        - title: |
+            &emsp;&bull;&emsp;Nice hover states.
+        - title: |
+            &emsp;&bull;&emsp;Large color palette.
+        - title: |
+            Tove Kjellmark
+          url: http://www.tovekjellmark.com/
+        - title: |
+            &emsp;&bull;&emsp;Concept of breathing makes site unique, alive.
+        - title: |
+            Ramon Haindl
+          url: http://www.ramonhaindl.com/
+        - title: |
+            &emsp;&bull;&emsp;Good use of persistent side navigation.
+        - title: |
+            &emsp;&bull;&emsp;Includes archive, social links, and personal work.
+        - title: |
+            Einar Aslaksen
+          url: http://einaraslaksen.com/
+        - title: |
+            &emsp;&bull;&emsp;Single slideshow, all content available at once.
+        - title: |
+            &emsp;&bull;&emsp;Less work for viewers means more work is seen.
+        - title: |
+            David Torr
+          url: http://www.davidtorr.com/
+        - title: |
+            &emsp;&bull;&emsp;All content is present on homepage, including:
+        - title: |
+            &emsp;&bull;&emsp;Work, bio, process, interests, resume, &amp; contact.
+
+      - example:
+        - heading: Studios
+        - title: |
+            This Also
+          url: http://thisalso.com/
+        - title: |
+            &emsp;&bull;&emsp;Simple but impactful homepage.
+        - title: |
+            &emsp;&bull;&emsp;Homepage present on all detail pages.
+        - title: |
+            Berger & Föhr
+          url: http://bergerfohr.com/
+        - title: |
+            &emsp;&bull;&emsp;Nice homepage that works as a listing page.
+        - title: |
+            &emsp;&bull;&emsp;Colorized hover staes.
+        - title: |
+            &emsp;&bull;&emsp;Cohesive listing pages &amp; pagination.
+        - title: |
+            Gid Motion
+          url: http://www.gidmotion.com/
+        - title: |
+            &emsp;&bull;&emsp;One simple moving element.
+        - title: |
+            &emsp;&bull;&emsp;Interesting grid and hover elements.
+        - title: |
+            &emsp;&bull;&emsp;Includes a play section!
+        - title: |
+            Studio Victorious
+          url: http://www.studio-victorious.com/
+        - title: |
+            &emsp;&bull;&emsp;Little touches of motion.
+        - title: |
+            &emsp;&bull;&emsp;Engages zine culture.
+        - title: |
+            &emsp;&bull;&emsp;Forefronts information.
+        - title: |
+            &emsp;&bull;&emsp;Shows work immediately.
+        - title: |
+            &emsp;&bull;&emsp;Justifies collective with shared interest / culture.
+        - title: |
+            Meri Media
+          url: http://merimedia.com/
+        - title: |
+            &emsp;&bull;&emsp;Two column conceit carried throughout site.
+        - title: |
+            &emsp;&bull;&emsp;Feels like whole site exists on one page.
+        - title: |
+            &emsp;&bull;&emsp;Pagination on detail pages.
+        - title: |
+            Instrument
+          url: http://www.instrument.com/
+        - title: |
+            &emsp;&bull;&emsp;Engaging front page.
+        - title: |
+            &emsp;&bull;&emsp;Different portrayals of screens in case studies.
+        - title: |
+            &emsp;&bull;&emsp;Mobile first design.
+        - title: |
+            Instrument
+          url: http://www.linkedbyair.net/
+        - title: |
+            &emsp;&bull;&emsp;Forefronts information, recent work, &amp; clients.
+        - title: |
+            &emsp;&bull;&emsp;Shows screens in a variety of environments.
+        - title: |
+            &emsp;&bull;&emsp;Conveys motion and interaction throughout site.
+        - title: <br/>
+        - heading: Free webfont resources!
+        - title: Open Foundry Hot 30
+          url: http://open-foundry.com/hot30
+        - title: Google WebFonts
+          url: https://www.google.com/fonts
+        - title: Font Library
+          url: https://fontlibrary.org/
+        - title: Font Squirrel
+          url: https://www.fontsquirrel.com/
+        - title: <br/>
+        - heading: Pay webfont resources!
+        - title: MyFonts
+          url: https://www.myfonts.com/
+        - title: Hoefler &amp; Co.
+          url: http://www.typography.com/
+        - title: Fonts.com
+          url: http://www.fonts.com/
+        - title: Optimo
+          url: http://optimo.ch/
+        - title: WebType
+          url: http://www.webtype.com/catalog/

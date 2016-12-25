@@ -1,0 +1,36 @@
+template: functionality
+section:
+  - heading: Examples
+    list:
+      - example:
+        - heading: CSS
+        - title: Hover States Before
+          url: /examples/hoverStatesBefore.html
+        - title: Hover States After
+          url: /examples/hoverStates.html
+        - title: <br />
+        - heading: Simple jQuery
+        - title: Toggle Class Before
+          url: /examples/jqueryToggleClassBefore.html
+        - title: Toggle Class After
+          url: /examples/jqueryToggleClass.html
+        - title: <br />
+        - heading: SlideShow
+        - title: Slick Slider Before
+          url: /examples/slick-slide-before.html
+        - title: Slick Slider After
+          url: /examples/slick-slide.html
+        - title: <br />
+        - heading: Parallax
+        - title: jQuery Parallax Before
+          url: /examples/jqueryBefore.html
+        - title: jQuery Parallax After
+          url: /examples/jquery.html
+        - title: ScrollMagic Parallax Before
+          url: /examples/scrollMagicBefore.html
+        - title: ScrollMagic Parallax After
+          url: /examples/scrollMagic.html
+        - title: Skrollr Parallax Before
+          url: /examples/skrollrBefore.html
+        - title: Skrollr Parallax After
+          url: /examples/skrollr.html

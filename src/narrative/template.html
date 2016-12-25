@@ -1,0 +1,29 @@
+<!-- devHead -->
+<div class="container">
+  <div class="introduction">
+    <h1>hypertext</h1>
+    <a href="https://vimeo.com/72501076" target="_blank">
+      <img src="https://c2.staticflickr.com/4/3640/3360330272_483b8b294f.jpg"
+        alt="Hyperland"/>
+      </a>
+    <p>
+      Hypertext is text which is not constrained to be linear. Hypertext is text which contains links to other texts. The term was coined by <a href="http://www.hyperland.com" target="_blank">Ted Nelson</a> around 1965. HyperMedia is a term used for hypertext which is not constrained to be text: it can include graphics, video and sound, for example.
+    </p>
+  </div>
+  {{#each section}}
+    <section class="responsive">
+      <h4>{{{ heading }}}</h4>
+        <div class="grid"><!--
+       -->{{#each list}}<ul class="examples">
+          {{#each example}}
+            <li class="{{#if heading}}heading{{else}}ex{{/if}}">
+              {{#if heading}}{{{ heading }}}{{/if}}
+              {{#if url}}<a href="{{{ url }}}" target="_blank">{{/if}}
+                {{{ title }}}
+              {{#if url}}</a>{{/if}}
+            </li>
+          {{/each}}</ul><!--
+       -->{{/each}}</div>
+    </section>
+  {{/each}}
+</div>
